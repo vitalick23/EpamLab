@@ -1,0 +1,83 @@
+https://www.thetrainline.com/?ds_kids=p25483964893&cm=0p4a&gclid=CjwKCAiA3o7RBRBfEiwAZMtSCcMXzuwubz60etAkOsBLM7oIuIUtkDs5e1-cm-GbtthFfm_AcVMNDhoCiXEQAvD_BwE&gclsrc=aw.ds&dclid=CNn-i7eV7tcCFcpFGwod224Psw
+
+1.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Minsk;
+  Получить уведомление о ошибке: Please enter a valid station name or code.
+
+2.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать radiobutton return;
+  Ввести дату туда: сегодня + 5 дня;
+  обратно: сегодня + 3 дня;
+  Получить уведомление о ошибке: Your return journey is earlier than your outward journey.
+
+3.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать radiobutton return;
+  Ввести дату туда: сегодня + 5 дня;
+  обратно: сегодня + 7 дня;
+  Выбрать пункт go via и ввести станцию Cardiff
+  Получить уведомление о ошибке: Please enter a valid station name or code.
+
+4.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать данные Chield = 9;
+  Получить уведомление о ошибке: Please select up to 9 travellers.
+
+5.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать данные Adults = 9;
+  Нажать на кнопку add railcard и добавить "16-25 RAILCARD"; 
+  Нажать на кнопку add railcard и добавить "16-25 RAILCARD";
+  Получить уведомление о ошибке: A specific railcard cannot be selected more than once.
+
+6.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать данные Adults = 9;
+  Нажать на кнопку add railcard и добавить "16-25 RAILCARD" количество - 1 ; 
+  Нажать на кнопку add railcard и добавить "HIGHLAND RAILCARD" количество - 9;
+  Получить уведомление о ошибке: The number of railcards must not exceed the number of people travelling.
+
+7.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать radiobutton return;
+  Ввести дату туда: сегодня + 3 дня;
+  обратно: сегодня + 4 дня;
+  изменить дату туда: сегодня + 4;
+  Получить уведомление о ошибке: Your return journey is earlier than your outward journey.
+
+8.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать radiobutton return;
+  Ввести дату туда: максимальную (сегодня + 27 weeks);
+  Нажать на кнопку next day;
+  Получить уведомление о ошибке: You can only book up to 27 weeks in advance.
+
+9.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Dublin Connolly;
+  Нажать на кнопку "Get times and tickets";
+  Получить уведомление о ошибке: No tickets are available, please refine your search
+
+10.
+  Ввести станцию отправления: London Bridge ;
+  Ввести станцию прибытия: Liverpool (Any);
+  Выбрать данные Adults = 8;
+  Нажать на кнопку add railcard и добавить "16-25 RAILCARD" количество - 1 ; 
+  Нажать на кнопку add railcard и добавить "HIGHLAND RAILCARD" количество - 7;
+  Нажать на кнопку add railcard и добавить "HIGHLAND RAILCARD" количество - 1;
+  Получить уведомление о ошибке: The number of railcards must not exceed the number of people travelling.
+
+
+ 
+  
+  
+ 
