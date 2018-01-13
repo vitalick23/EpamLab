@@ -7,7 +7,7 @@ namespace TestFramework.Tests
     /// Сводное описание для SmokeTest
     /// </summary>
     [TestClass]
-    public class SmokeTests
+    public class NegativeTests
     {
         private static Steps.Steps steps = new Steps.Steps();
 
